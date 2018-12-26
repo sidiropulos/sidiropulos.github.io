@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul, li {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+#header {
+    background-image: url("../img/header.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 41vw;
+}
+
+#logo {
+    width: 50px;
+    height: auto;
+    margin: 20px;
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+.menu__item {
+    margin-right: 40px;
+}
+
+.menu__a {
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.menu__a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#div_for_margin {
+    width: 130px;
+}
+
+#frame {
+    width: 370px;
+    height: 270px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.slogan {
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 60px;
+
+}
+
+.slogan__text {
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.quality {
+    text-align: center;
+    margin-top: -5.2vw;
+}
+
+.safety {
+    text-align: center;
+    margin-top: -12.5vw;
+}
+
+.comfort {
+    text-align: center;
+    margin-top: -3.5vw;
+}
+
+.advantages__title {
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #444444;
+    margin-top: 20px;
+}
+
+.advantages__text {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #444444;
+
+}
+
+.safety p {
+    margin-left: auto;
+    margin-right: auto;
+}
