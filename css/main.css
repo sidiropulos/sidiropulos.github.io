@@ -78,20 +78,18 @@ ul, li {
 
 .quality {
     text-align: center;
-    margin-top: -50px;
 }
 
 .safety {
     text-align: center;
-    margin-top: -170px;
 }
 
 .comfort {
     text-align: center;
-    margin-top: -50px;
 }
 
 .advantages__title {
+    text-align: center;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -113,17 +111,23 @@ ul, li {
 
 }
 
-.safety p {
+
+.advantages__img {
+    display: table;
+    margin: 0 auto;
+}
+
+.advantages p {
     margin-left: auto;
     margin-right: auto;
 }
 
-.comfort p {
+.advantages p {
     margin-left: auto;
     margin-right: auto;
 }
 
-.quality p {
+.advantages p {
     margin-left: auto;
     margin-right: auto;
 }
