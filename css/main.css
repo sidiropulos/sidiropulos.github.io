@@ -72,6 +72,11 @@ ul, li {
 #services {
     background: #F9F9F9;
     padding-top: 50px;
+    padding-bottom: 45px;
+}
+
+.services__items {
+    text-align: center;
 }
 
 .services__title {
@@ -91,6 +96,10 @@ ul, li {
     background-image: url("../img/manik.png");
     background-repeat: no-repeat;
     background-size: 100%;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .services__text {
@@ -102,4 +111,129 @@ ul, li {
     color: #FFFFFF;
     text-align: center;
     padding-top: 220px;
+}
+
+#advantages {
+    padding-top: 50px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.advantages__title {
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 42px;
+    letter-spacing: 0.05em;
+    color: #B176B1;
+    text-align: center;
+}
+
+.advantages__img {
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.advantages__name {
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #444444;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.advantages__text {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 50px;
+    color: #444444;
+}
+
+#masters {
+    background: #F9F9F9;
+    padding-top: 50px;
+}
+
+.masters__title {
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 42px;
+    letter-spacing: 0.05em;
+    color: #B176B1;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.master__img {
+    width: 100px;
+    height: auto;
+}
+
+#carouselSecondExampleIndicators {
+    padding-bottom: 60px;
+}
+
+.master__name {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 19px;
+    letter-spacing: 0.07em;
+    color: #000000;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.master__profession {
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    font-size: 15px;
+    letter-spacing: 0.07em;
+    color: #B176B1;
+    border-radius: 4px;
+}
+
+.master__experience {
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 13px;
+    font-size: 13px;
+    letter-spacing: 0.07em;
+    color: #000000;
+    border-radius: 4px;
+}
+
+.master__text {
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    border-radius: 4px;
+}
+
+.master__info {
+    height: 240px;
+}
+
+.prev {
+    margin-top: 240px;
+}
+
+.next {
+    margin-top: 240px;
 }
