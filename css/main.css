@@ -56,7 +56,7 @@ ul, li {
 .about__text {
     margin-right: auto;
     margin-left: auto;
-    width: 770px;
+    max-width: 770px;
     margin-bottom: 40px;
 }
 
@@ -159,6 +159,7 @@ ul, li {
 #masters {
     background: #F9F9F9;
     padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 .masters__title {
@@ -185,7 +186,7 @@ ul, li {
     font-style: normal;
     font-weight: bold;
     line-height: 20px;
-    font-size: 19px;
+    font-size: 18px;
     letter-spacing: 0.07em;
     color: #000000;
     border-radius: 4px;
@@ -198,7 +199,7 @@ ul, li {
     font-style: normal;
     font-weight: 600;
     line-height: 16px;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 0.07em;
     color: #B176B1;
     border-radius: 4px;
@@ -209,7 +210,7 @@ ul, li {
     font-style: normal;
     font-weight: 600;
     line-height: 13px;
-    font-size: 13px;
+    font-size: 12px;
     letter-spacing: 0.07em;
     color: #000000;
     border-radius: 4px;
@@ -220,20 +221,28 @@ ul, li {
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 12px;
+    font-size: 11px;
     letter-spacing: 0.03em;
     color: #000000;
     border-radius: 4px;
+    margin-bottom: 20px;
+    height: 60px;
 }
 
 .master__info {
     height: 240px;
 }
 
-.prev {
-    margin-top: 240px;
-}
-
-.next {
-    margin-top: 240px;
+.master__example {
+    margin-left: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 13px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background: #B176B1;
+    height: 150px;
+    padding: 5px;
 }
