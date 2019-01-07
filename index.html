@@ -18,15 +18,13 @@
     <header id="header" class="header">
         <div class="container">
             <div class="row">
-                <div class="col-xs-1">
+                <div class="col-xl-1">
                     <img src="img/logo.png" alt="" id="logo">
                 </div>
-                <div class="col-xs-2" id="div_for_margin">
-
-                </div>
-                <div class="col-xs-4">
-                    <nav id="header__part_1">
-                        <ul class="menu d-flex justify-content-center">
+                <div class="col-xl-1"></div>
+                <div class="col-xl-5">
+                    <nav id="header__menu">
+                        <ul class="menu d-flex   justify-content-center">
                             <li class="menu__item">
                                 <a href="" class="menu__a">
                                     О нас
@@ -50,11 +48,11 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-xs-2 ml-auto">
+                <div class="col-xl-2 ml-auto">
                     <nav>
                         <ul class="menu d-flex justify-content-center">
                             <li class="menu__number">
-                                <a href="tel:+77777777777" class="menu__a">
+                                <a href="tel:+77777777777" class="number__a">
                                     +7 777 777 77 77
                                 </a>
                             </li>
@@ -62,64 +60,82 @@
                     </nav>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-5">
-                    <h1 class="slogan">
-                        Текст текст текст текст текст
-                    </h1>
-                    <h3 class="slogan__text">
-                        Текст текст текст текст текст!
-                    </h3>
-                </div>
-                <div class="col-sm-4 ml-auto">
-                    <div id="frame" class="carousel slide carousel-fade" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#frame" data-slide-to="0" class="active"></li>
-                            <li data-target="#frame" data-slide-to="1"></li>
-                            <li data-target="#frame" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner " role="listbox">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg" alt="First slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" alt="Third slide">
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#frame" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#frame" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-1">
-                </div>
-            </div>
         </div>
     </header>
     <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="container">
         <div class="row">
-            <div class="col-sm-3 advantages">
-                <img src="img/comfort.svg" alt="" class="advantages__img">
-                <h3 class="advantages__title">Комфорт</h3>
-                <p class="advantages__text">Вы сами выбираете где пользоваться нашими услугами - в нашем салоне или у вас дома</p>
+            <div class="col-xl-12">
+                <h6 class="about__title">
+                    О нас
+                </h6>
+                <div class="about__text">
+                    <p>С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности способствует подготовки и реализации системы обучения кадров, соответствует насущным потребностям. Задача организации, в особенности же рамки и место обучения кадров влечет за собой процесс внедрения и модернизации дальнейших направлений развития. Идейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности в значительной степени обуславливает создание систем массового участия.</p>
+                </div>
             </div>
-            <div class="col-sm-4 ml-auto advantages">
-                <img src="img/safety.svg" alt="" class="advantages__img">
-                <h3 class="advantages__title">Безопастность</h3>
-                <p class="advantages__text">Полная безопасность выполнения всех услуг в условиях медицинской стерильности</p>
-            </div>
-            <div class="col-sm-3 ml-auto advantages">
-                <img src="img/quality.svg" alt="" class="advantages__img">
-                <h3 class="advantages__title">Качество</h3>
-                <p class="advantages__text">Наши дипломированные мастера одни из лучших профессионалов в своей области</p>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h6 class="services__title">
+                Услуги
+            </h6>
+            <div class="row">
+                <div class="col-xl-3">
+                    <div class="services__img">
+                        <p class="services__text">
+                            Маникюр
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="services__img">
+                        <p class="services__text">
+                            Парикмахер
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="services__img">
+                        <p class="services__text">
+                            Визажист
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="services__img">
+                        <p class="services__text">
+                            Массажист
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
