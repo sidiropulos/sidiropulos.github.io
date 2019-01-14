@@ -178,8 +178,7 @@ ul, li {
 }
 
 .master__img {
-    width: 100px;
-    height: auto;
+
 }
 
 #carouselSecondExampleIndicators {
@@ -187,21 +186,18 @@ ul, li {
 }
 
 .master__name {
-    font-family: Open Sans sans-serif;
-    font-style: normal;
     font-weight: bold;
-    line-height: 20px;
-    font-size: 18px;
-    letter-spacing: 0.07em;
     border-radius: 4px;
     margin-left: 30px;
     margin-top: 30px;
-
-
+    font-style: normal;
+    line-height: 18px;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #444444;
 }
 
 .master__profession {
-    font-family: Open Sans sans-serif;
     margin-left: 30px;
     font-style: normal;
     font-weight: 600;
@@ -213,10 +209,9 @@ ul, li {
 }
 
 .master__experience {
-    font-family: Open Sans sans-serif;
     margin-left: 30px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 13px;
     font-size: 12px;
     letter-spacing: 0.07em;
@@ -225,7 +220,6 @@ ul, li {
 }
 
 .master__text {
-    font-family: Open Sans sans-serif;
     margin-left: 30px;
     font-style: normal;
     font-weight: normal;
@@ -243,10 +237,9 @@ ul, li {
 }
 
 .master__example {
-    font-family: Open Sans sans-serif;
-    margin-left: 60px;
+    margin-left: 50px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 13px;
     font-size: 14px;
     letter-spacing: 0.1em;
@@ -302,4 +295,9 @@ ul, li {
 .panel-body {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.master {
+    background-color: white;
+    border-radius: 5px;
 }
